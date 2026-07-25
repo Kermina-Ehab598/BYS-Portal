@@ -1,0 +1,24 @@
+.newsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 26px;
+}
+
+.coursesGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.contactWrap {
+  max-width: 560px;
+}
+
+@media (max-width: 900px) {
+  .newsGrid {
+    grid-template-columns: 1fr;
+  }
+  .coursesGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

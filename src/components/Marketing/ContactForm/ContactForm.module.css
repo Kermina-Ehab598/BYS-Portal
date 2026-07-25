@@ -1,0 +1,68 @@
+.card {
+  background: #fff;
+  border: 1px solid #e4ded0;
+  padding: 34px;
+  border-radius: 3px;
+}
+
+.field {
+  margin-bottom: 20px;
+}
+
+.field label {
+  display: block;
+  font-size: 13.5px;
+  font-weight: 600;
+  color: var(--navy-deepest);
+  margin-bottom: 6px;
+}
+
+.field input,
+.field textarea {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #d7d2c4;
+  border-radius: 2px;
+  background: var(--bg-warm);
+  font-family: inherit;
+  font-size: 14px;
+  color: var(--navy-deepest);
+  transition: border-color 0.2s;
+}
+
+.field input:focus,
+.field textarea:focus {
+  outline: none;
+  border-color: var(--navy-3);
+  box-shadow: 0 0 0 3px rgba(50, 130, 184, 0.15);
+}
+
+.field textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.error {
+  display: block;
+  font-size: 11.5px;
+  color: var(--maroon);
+  margin-top: 4px;
+}
+
+.successMsg {
+  font-size: 15px;
+  color: var(--navy-deepest);
+  margin-bottom: 14px;
+  text-align: center;
+}
+
+.linkBtn {
+  display: block;
+  margin: 0 auto;
+  background: none;
+  border: none;
+  color: var(--navy-3);
+  font-weight: 700;
+  font-size: 13.5px;
+  cursor: pointer;
+}

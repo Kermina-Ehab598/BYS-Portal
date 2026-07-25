@@ -1,0 +1,27 @@
+:root {
+  --abyss: #001c35;
+  --indigo: #1f4068;
+  --slate: #0f4c75;
+  --cobalt: #3282b8;
+  --blue-accent: #3f72af;
+  --ice: #ebf4f6;
+  --paper: #f9f8f6;
+  --muted: #879eab;
+  --gold: #b38e46;
+  --gold-light: #d4b982;
+  --wine: #6b1d2f;
+  --ink: #000000;
+
+  /* Aliases matching the marketing site CSS — same colors, teammate's names.
+     Kept as aliases (not duplicated hex values) so both codebases share
+     one source of truth. */
+  --navy-deepest: var(--abyss);
+  --navy-1: var(--slate);
+  --navy-2: var(--indigo);
+  --navy-3: var(--blue-accent);
+  --blue-bright: var(--cobalt);
+  --gold-deep: var(--gold);
+  --bg-warm: var(--paper);
+  --bg-cool: var(--ice);
+  --maroon: var(--wine);
+}

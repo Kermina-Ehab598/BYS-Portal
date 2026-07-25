@@ -1,0 +1,26 @@
+.item {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  padding: 18px 0;
+  border-bottom: 1px solid #e4ded0;
+}
+
+.num {
+  font-family: "Cairo", sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  color: var(--gold-deep);
+  flex: none;
+  width: 36px;
+}
+
+.item h4 {
+  font-size: 15.5px;
+  margin-bottom: 4px;
+}
+
+.item p {
+  font-size: 13.5px;
+  color: var(--muted);
+}

@@ -1,0 +1,14 @@
+.card {
+  position: relative;
+  background: linear-gradient(160deg, rgba(15, 76, 117), rgba(31, 64, 104));
+  border: 1px solid rgba(50, 130, 184, 0.25);
+  border-radius: 2px 18px 2px 18px;
+  padding: 24px 24px 22px;
+  margin-bottom: 20px;
+  backdrop-filter: blur(2px);
+}
+
+.wineAccent {
+  border-color: rgba(107, 29, 47);
+  background: var(--gold);
+}

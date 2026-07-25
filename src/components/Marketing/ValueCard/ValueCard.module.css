@@ -1,0 +1,30 @@
+.card {
+  text-align: center;
+  background: #fff;
+  border: 1px solid #e4ded0;
+  padding: 28px 16px;
+  border-radius: 3px;
+}
+
+.icon {
+  width: 52px;
+  height: 52px;
+  background: var(--navy-deepest);
+  color: var(--gold-light);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 14px;
+  font-size: 20px;
+}
+
+.card h4 {
+  font-size: 15px;
+  margin-bottom: 6px;
+}
+
+.card p {
+  font-size: 12.5px;
+  color: var(--muted);
+}

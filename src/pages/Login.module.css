@@ -1,0 +1,62 @@
+.form {
+  background: linear-gradient(
+    160deg,
+    rgba(15, 76, 117, 0.55),
+    rgba(31, 64, 104, 0.45)
+  );
+  border: 1px solid rgba(50, 130, 184, 0.25);
+  border-radius: 2px 18px 2px 18px;
+  padding: 32px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 20px;
+}
+
+.field label {
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.field input,
+.field select {
+  background: rgba(235, 244, 246, 0.05);
+  border: 1px solid rgba(235, 244, 246, 0.15);
+  border-radius: 5px;
+  padding: 11px 12px;
+  color: var(--paper);
+  font-family: "Cairo", sans-serif;
+  font-size: 14px;
+  outline: none;
+}
+
+.field input:focus,
+.field select:focus {
+  border-color: var(--cobalt);
+}
+
+.errorText {
+  font-size: 11.5px;
+  color: #e08a9a;
+}
+
+.submitBtn {
+  width: 100%;
+  padding: 13px;
+  border-radius: 6px;
+  border: none;
+  background: var(--cobalt);
+  color: var(--paper);
+  font-family: "Cairo", sans-serif;
+  font-weight: 700;
+  font-size: 14.5px;
+  cursor: pointer;
+  margin-top: 6px;
+}
+
+.submitBtn:hover {
+  background: var(--blue-accent);
+}

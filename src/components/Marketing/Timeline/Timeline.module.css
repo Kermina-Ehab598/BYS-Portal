@@ -1,0 +1,45 @@
+.timeline {
+  position: relative;
+  margin-top: 10px;
+  padding-inline-start: 32px;
+  border-inline-start: 2px solid var(--gold-light);
+}
+
+.item {
+  position: relative;
+  padding-bottom: 38px;
+}
+
+.item:last-child {
+  padding-bottom: 0;
+}
+
+.item::before {
+  content: "";
+  position: absolute;
+  inset-inline-start: -41px;
+  top: 4px;
+  width: 14px;
+  height: 14px;
+  background: var(--gold-deep);
+  border: 3px solid var(--bg-warm);
+  border-radius: 50%;
+}
+
+.date {
+  font-family: "Cairo", sans-serif;
+  font-weight: 800;
+  font-size: 13px;
+  color: var(--gold-deep);
+  margin-bottom: 4px;
+}
+
+.item h4 {
+  font-size: 16.5px;
+  margin-bottom: 6px;
+}
+
+.item p {
+  font-size: 13.5px;
+  color: var(--muted);
+}

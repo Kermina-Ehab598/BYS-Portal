@@ -1,0 +1,32 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: #fff;
+  border: 1px solid #e4ded0;
+  border-top: 3px solid var(--gold-deep);
+  border-radius: 3px;
+  padding: 30px 16px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 14px 28px rgba(0, 28, 53, 0.08);
+}
+
+.num {
+  font-family: "Cairo", sans-serif;
+  font-weight: 900;
+  font-size: 36px;
+  color: var(--navy-deepest);
+}
+
+.label {
+  font-size: 13.5px;
+  color: var(--muted);
+  margin-top: 6px;
+  font-weight: 600;
+}

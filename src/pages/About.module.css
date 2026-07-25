@@ -1,0 +1,24 @@
+.split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 36px;
+}
+
+.goalsList {
+  margin-top: 10px;
+}
+
+.valuesGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+@media (max-width: 900px) {
+  .split {
+    grid-template-columns: 1fr;
+  }
+  .valuesGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

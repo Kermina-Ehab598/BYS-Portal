@@ -1,0 +1,11 @@
+/* نفس فكرة Join.module.css — الفورم شفاف جزئيًا ومصمم على خلفية غامقة */
+.darkSection {
+  background:
+    radial-gradient(
+      60% 50% at 80% 0%,
+      rgba(50, 130, 184, 0.16),
+      transparent 60%
+    ),
+    linear-gradient(180deg, var(--abyss) 0%, var(--indigo) 100%);
+  padding: 70px 0;
+}

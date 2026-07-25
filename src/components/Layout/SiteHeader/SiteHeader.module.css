@@ -1,0 +1,121 @@
+.nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--navy-deepest);
+  border-bottom: 2px solid var(--gold-deep);
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 0;
+  margin: 0 1rem;
+}
+
+.logo {
+  font-family: "Cairo", sans-serif;
+  font-weight: 800;
+  font-size: 22px;
+  color: var(--gold-deep);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+.logo:hover {
+  color: var(--gold-light);
+  text-decoration: none;
+}
+
+.logoText {
+  color: inherit;
+  font-weight: 800;
+}
+
+.mark {
+  width: 14px;
+  height: 14px;
+  background: var(--gold-deep);
+  transform: rotate(45deg);
+}
+
+.links {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+
+.links a {
+  color: var(--gold-deep);
+  font-size: 15px;
+  font-weight: 500;
+  padding: 4px;
+  transition: color 0.2s;
+  text-decoration: none;
+}
+
+.links a:hover {
+  color: var(--gold-light);
+  text-decoration: none;
+}
+
+.current {
+  color: var(--gold-deep) !important;
+  font-weight: 700;
+}
+
+.cta {
+  background: var(--gold-deep);
+  color: var(--navy-deepest) !important;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 10px 22px;
+  border-radius: 5px;
+  transition: background 0.2s;
+  margin: 0.5rem;
+}
+
+.cta:hover {
+  background: var(--gold-light);
+}
+
+.toggle {
+  display: none;
+  background: none;
+  border: none;
+  color: var(--bg-warm);
+  font-size: 26px;
+  cursor: pointer;
+}
+
+@media (max-width: 860px) {
+  .links {
+    position: absolute;
+    inset-inline: 0;
+    top: 100%;
+    background: var(--navy-deepest);
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    border-bottom: 2px solid var(--gold-deep);
+  }
+  .linksOpen {
+    max-height: 400px;
+  }
+  .links a {
+    padding: 16px 28px;
+    border-bottom: 1px solid var(--navy-2);
+  }
+  .cta {
+    margin: 16px 28px;
+    text-align: center;
+  }
+  .toggle {
+    display: block;
+  }
+}

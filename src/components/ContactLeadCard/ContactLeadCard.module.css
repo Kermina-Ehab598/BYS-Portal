@@ -1,0 +1,78 @@
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.person {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--wine), #8f2f45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Tajawal", sans-serif;
+  font-weight: 900;
+  font-size: 16px;
+  color: var(--bg-warm);
+}
+
+.name {
+  font-weight: 700;
+  font-size: 15px;
+  margin: 0;
+  color: var(--navy-deepest);
+}
+
+.role {
+  color: var(--muted);
+  font-size: 12.5px;
+  margin: 2px 0 0;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  font-family: "Cairo", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 9px 16px;
+  border-radius: 5px;
+  text-decoration: none;
+  border: 1px solid transparent;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.btnPrimary {
+  background: var(--cobalt);
+  color: var(--paper);
+}
+
+.btnPrimary:hover {
+  background: var(--blue-accent);
+}
+
+.btnGhost {
+  background: transparent;
+  color: var(--navy-deepest);
+  border-color: rgba(63, 114, 175, 0.4);
+}
+
+.btnGhost:hover {
+  background: var(--bg-cool);
+}

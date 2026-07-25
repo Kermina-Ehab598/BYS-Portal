@@ -1,0 +1,115 @@
+.panel {
+  background: linear-gradient(
+    160deg,
+    rgba(15, 76, 117, 0.973),
+    rgb(31, 64, 104)
+  );
+  border: 1px solid rgba(179, 142, 70, 0.35);
+  border-radius: 2px 18px 2px 18px;
+  padding: 28px;
+  margin-top: 24px;
+}
+
+.panel h3 {
+  font-family: "Tajawal", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--paper);
+  margin: 0 0 10px;
+}
+
+.description {
+  color: var(--muted);
+  font-size: 13.5px;
+  margin-bottom: 20px;
+  line-height: 1.7;
+}
+
+.lockNotice {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  background: rgba(179, 142, 70, 0.1);
+  border: 1px solid rgba(179, 142, 70, 0.4);
+  border-radius: 6px;
+  padding: 12px 16px;
+  font-size: 13px;
+  color: var(--gold-light);
+  margin-bottom: 20px;
+}
+
+.lockLink {
+  background: linear-gradient(135deg, var(--gold-light), var(--gold));
+  color: var(--abyss);
+  font-weight: 700;
+  font-size: 12.5px;
+  padding: 6px 16px;
+  border-radius: 20px;
+  white-space: nowrap;
+}
+
+.lectureList {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.lecture {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: rgba(235, 244, 246, 0.04);
+  border: 1px solid rgba(235, 244, 246, 0.08);
+  border-radius: 5px;
+  padding: 10px 14px;
+  font-size: 13.5px;
+  color: var(--paper);
+}
+
+.lecture.locked {
+  color: var(--muted);
+  opacity: 0.75;
+}
+
+.lectureNum {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 11px;
+  color: var(--gold-light);
+  flex-shrink: 0;
+}
+
+.lectureTitle {
+  flex: 1;
+}
+
+.lectureIcon {
+  flex-shrink: 0;
+  font-size: 12px;
+}
+
+.progressRow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.progressLabel {
+  font-size: 12px;
+  color: var(--muted);
+  flex-shrink: 0;
+}
+
+.progressTrack {
+  flex: 1;
+  height: 6px;
+  border-radius: 4px;
+  background: rgba(235, 244, 246, 0.08);
+  overflow: hidden;
+}
+
+.progressFill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--gold), var(--cobalt));
+}
