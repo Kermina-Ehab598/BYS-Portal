@@ -30,7 +30,7 @@ const EMPTY_FORM = {
   desiredCourse: "",
 };
 
-export default function ApplicationForm() {
+export default function JoinForm() {
   const [applicantType, setApplicantType] = useState(null); // "volunteer" | "student"
   const [form, setForm] = useState(EMPTY_FORM);
   const [files, setFiles] = useState({ idFront: null, idBack: null, cv: null });
@@ -171,6 +171,7 @@ export default function ApplicationForm() {
                 type="text"
                 value={form.fullName}
                 onChange={(e) => updateField("fullName", e.target.value)}
+                placeholder="مثال: أحمد محمد علي حسن"
               />
             </Field>
 
@@ -179,7 +180,7 @@ export default function ApplicationForm() {
                 type="tel"
                 value={form.phone}
                 onChange={(e) => updateField("phone", e.target.value)}
-                placeholder="+20"
+                placeholder="01012345678"
               />
             </Field>
 

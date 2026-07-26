@@ -1,5 +1,5 @@
 import PageBanner from "../components/Marketing/PageBanner/PageBanner";
-import JoinForm from "../components/Marketing/JoinForm/JoinForm";
+import JoinForm from "../components/Forms/JoinForm/JoinForm";
 // src\components\Marketing\JoinForm\JoinForm.jsx
 
 export default function Join() {
